@@ -7,27 +7,36 @@
 
     <link rel="icon" href="./public/images/logo-icon.png" />
     <link rel="stylesheet" href="./public/css/main.css">
+    <link rel="stylesheet" href="./public/css/animations.css">
+    <link rel="stylesheet" href="./public/css/page-landing.css">
+
+    <link href = "https://fonts.googleapis.com/css2? family = Nunito: ital, wght @ 0,400; 0,600; 1,800 & display = swap" rel = "stylesheet">
   </head>
   <body>
-    <header>
-      <img src="./public/images/logo.svg" alt="logomarca de happy" />
+    <div id="page-landing">
+        <div id="container">
+            <header>
+                <img class="animate-up" id="logo" src="./public/images/logo.svg" alt="logomarca de happy" />
+          
+                <div class="location animate-up">
+                  <strong>Imperatriz</strong>
+                  <p>Maranhao</p>
+                </div>
+              </header>
+          
+              <main>
+                <h1 class="animate-up">Leve felicidade para o mundo</h1>
+          
+                <section class="visit">
+                  <p class="animate-up">Visite orfanatos e mude o ida de muitas crianças</p>
+          
+                  <a href="#" class="animate-up" title="visite orfanatos">
+                    <img src="./public/images/arrow.svg" alt="ir para o mapa" />
+                  </a>
+                </section>
+              </main>
+        </div>
 
-      <div>
-        <strong>Imperatriz</strong>
-        <p>Maranhao</p>
-      </div>
-    </header>
-
-    <main>
-      <h1>Leve felicidade para o mundo</h1>
-
-      <section>
-        <p>Visite orfanatos e mude o ida de muitas crianças</p>
-
-        <a href="#" title="visite orfanatos">
-          <img src="./public/images/arrow.svg" alt="ir para o mapa" />
-        </a>
-      </section>
-    </main>
+    </div>
   </body>
 </html>
