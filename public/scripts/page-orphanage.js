@@ -1,10 +1,11 @@
 const options = {
-    draggin: false,
+    dragging: false,
     touchZoom: false,
     doubleClickZoom: false,
     scrollWheelZoom: false,
     zoomControl: false
 }
+
 
 //create map
 const map = L.map('mapid',options).setView([-5.4956612,-47.4943441], 15);
