@@ -34,18 +34,16 @@
   <body>
     <div id="page-create-orphanage">
       <aside class="animate-right sidebar">
-
-        <img src="./public/images/map-marker.svg" alt="Happy">
+        <img src="./public/images/map-marker.svg" alt="Happy" />
 
         <footer>
           <button onclick="history.back()">
-            <img src="./public/images/arrow-back.svg" alt="Voltar">
+            <img src="./public/images/arrow-back.svg" alt="Voltar" />
           </button>
         </footer>
       </aside>
 
       <main class="animate-apper with-sidebar">
-        
         <form action="">
           <fieldset>
             <legend>Dados</legend>
@@ -54,7 +52,7 @@
               <div id="mapid"></div>
 
               <footer>
-                <a href="#"id="select-point">
+                <a href="#" id="select-point">
                   Clique no mapa para adicionar a localização
                 </a>
               </footer>
@@ -62,27 +60,61 @@
 
             <div class="input-block">
               <label for="name">Nome</label>
-              <input id="name" name="name">
+              <input id="name" name="name" />
             </div>
 
             <div class="input-block">
-              <label for="about">Sobre</label>
+              <label for="about"
+                >Sobre <span>Máximo de 300 catacteres</span></label
+              >
               <textarea id="about" name="about"></textarea>
             </div>
 
             <div class="input-block">
               <label for="whatsapp">Número de whatsapp</label>
-              <input id="whatsapp" name="whatsapp">
+              <input id="whatsapp" name="whatsapp" />
             </div>
 
+            <div class="input-block images">
+              <label for="images">Foto</label>
+
+              <div class="images-upload" id="images">
+                <input name="images" placeholder="Cole o link da foto aqui" />
+              </div>
+              <button type="button">
+                <img src="./public/images/add-file.svg" alt="nova imagen" />
+              </button>
+            </div>
           </fieldset>
 
           <fieldset>
             <legend>Visitação</legend>
+
+            <div class="input-block">
+              <label for="instructions">Instruções</label>
+              <textarea id="instructions" name="instructions"></textarea>
+            </div>
+
+            <div class="input-block">
+              <label for="opening_hours">Horário das visitas</label>
+              <input id="opening_hours" name="opening_hours" />
+            </div>
+
+            <div class="input-block">
+              <label for="open_on_weekends">Atende fim de semana?</label>
+              <input
+                type="hidden"
+                id="open_on_weekends"
+                name="open_on_weekends"
+                value="1"
+              />
+
+              <div class="button-select">
+                
+              </div>
+            </div>
           </fieldset>
-
         </form>
-
       </main>
     </div>
     <script src="./public/scripts/page-create-orphanage.js"></script>
