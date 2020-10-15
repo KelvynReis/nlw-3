@@ -22,6 +22,10 @@ const icon = L.icon({
 })
 
 //create and add marker
-L.marker([-5.4956612,-47.4943441], { icon})
-    .addTo(map)
+L.marker([-5.4956612,-47.4943441], { icon}).addTo(map)
+
+/* image gallery*/ 
+
+function selectImage(){
     
+}
