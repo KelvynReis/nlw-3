@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lar das meninas</title>
+    <title>Adicionar um orfanato</title>
 
     <link
       rel="stylesheet"
@@ -21,7 +21,8 @@
     <link rel="icon" href="./public/images/logo-icon.png" />
     <link rel="stylesheet" href="./public/css/main.css" />
     <link rel="stylesheet" href="./public/css/animations.css" />
-    <link rel="stylesheet" href="./public/css/page-orphanage.css" />
+    <link rel="stylesheet" href="./public/css/sidebar.css" />
+    <link rel="stylesheet" href="./public/css/page-create-orphanage.css" />
 
     <link
       href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap"
@@ -29,7 +30,7 @@
     />
   </head>
   <body>
-    <div id="page-orphanage">
+    <div id="create-orphanage">
       <aside class="animate-right sidebar">
 
         <img src="./public/images/map-marker.svg" alt="Happy">
@@ -42,81 +43,9 @@
       </aside>
 
       <main class="animate-apper with-sidebar">
-        <div class="orphanage-details">
-          <img src="./public/images/home.jpg" alt="Lar das meninas" />
-
-          <div class="images">
-            <button onclick="selectImage(event)" class="active" type="button">
-              <img src="https://source.unsplash.com/random?id=1" alt="lar das meninas" />
-            </button>
-
-            <button onclick="selectImage(event)" type="button">
-              <img src="https://source.unsplash.com/random?id=2" alt="lar das meninas" />
-            </button>
-
-            <button onclick="selectImage(event)" type="button">
-              <img src="https://source.unsplash.com/random?id=3" alt="lar das meninas" />
-            </button>
-
-            <button onclick="selectImage(event)" type="button">
-              <img src="https://source.unsplash.com/random?id=4" alt="lar das meninas" />
-            </button>
-
-            <button onclick="selectImage(event)" type="button">
-              <img src="https://source.unsplash.com/random?id=5" alt="lar das meninas" />
-            </button>
-
-            <button onclick="selectImage(event)" type="button">
-              <img src="https://source.unsplash.com/random?id=6" alt="lar das meninas" />
-            </button>
-          </div>
-
-          <div class="orphanage-details-content">
-            <h1>Lar das meninas</h1>
-
-            <p>
-              Presta assistência a crianças de 06 a 15 anos que se encontre em
-              situação de risco e/ou vulnerabilidade social.
-            </p>
-
-            <div class="map-container">
-              <div id="mapid"></div>
-
-              <footer>
-                <a href="">Ver rotas no Google Maps</a>
-              </footer>
-            </div>
-
-            <hr />
-
-            <h2>Instruçoes para visita</h2>
-
-            <p>
-              Venha como se sentir a vontade e traga muito amor e paciência para
-              dar.
-            </p>
-
-            <div class="open-details">
-              <div class="hour">
-                <img src="./public/images/clock.svg" alt="Horários" />
-                Horário de visitas Das 18h até 8h
-              </div>
-              <div class="open-on-weekends">
-                <img src="./public/images/info.svg" alt="Informações" />
-                Atendemos fim de semana
-              </div>
-            </div>
-            <button class="primary-button" type="button">
-              <img
-                src="./public/images/whatsapp.svg"
-                alt="chamar no whatsapp"
-              />
-              Entrar em contato
-            </button>
-          </div>
-        </div>
+        
       </main>
     </div>
-    <script src="./public/scripts/page-orphanage.js"></script>
+    <script src="./public/scripts/page-create-orphanage.js"></script>
   </body>
 </html>
