@@ -1,0 +1,20 @@
+{
+  "name": "nlw-3",
+  "version": "1.0.0",
+  "description": "Newt Lvel Week #3\r desenvolvido com as tecnlogias hmtl, css, javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sogeking07/nlw-3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sogeking07/nlw-3/issues"
+  },
+  "homepage": "https://github.com/Sogeking07/nlw-3#readme"
+}
