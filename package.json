@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Sogeking07/nlw-3/issues"
   },
-  "homepage": "https://github.com/Sogeking07/nlw-3#readme"
+  "homepage": "https://github.com/Sogeking07/nlw-3#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
