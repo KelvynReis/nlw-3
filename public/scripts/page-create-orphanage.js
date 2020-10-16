@@ -12,7 +12,15 @@ const icon = L.icon({
     popupAnchor: [170, 2]
 })
 
-//create and add marker
-L.marker([-5.4956612,-47.4943441], { icon})
+
+let marker;
+
+// create and add marker
+map.on('click',(event) =>{
+    const lat = event.latlng.lat;
+    const lng = event.latlng.lng;
+
+    // add icon layer 
+    marker = L.marker([lat, lng], { icon })
     .addTo(map)
-    .bindPopup(popup)
+})
