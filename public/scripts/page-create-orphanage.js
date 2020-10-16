@@ -34,6 +34,13 @@ map.on('click',(event) =>{
 
 //add campos de fotos
 function addPhotoField(){
-    //pegar o container de fotos
-    
+    //pegar o container de fotos #images
+    const container = document.querySelector('#images')
+    //pegar o container para duplicar .new-image
+    const fieldsContainer = document.querySelectorAll('.new-upload')
+    //realizar o clone da ultima imagem adicionada
+    const newFieldContainer = fieldsContainer[fieldsContainer.length - 1].cloneNode(true)
+    //adicionar o clone ao container de images
+    container.appendChild(newFieldContainer)
+
 }
