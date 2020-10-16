@@ -17,6 +17,7 @@ let marker;
 
 // create and add marker
 map.on('click',(event) =>{
+
     const lat = event.latlng.lat;
     const lng = event.latlng.lng;
 
@@ -30,3 +31,9 @@ map.on('click',(event) =>{
     marker = L.marker([lat, lng], { icon })
     .addTo(map)
 })
+
+//add campos de fotos
+function addPhotoField(){
+    //pegar o container de fotos
+    
+}
