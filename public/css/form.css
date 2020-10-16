@@ -66,6 +66,11 @@ fieldset legend{
     padding: 0 1.6rem;
 }
 
+.input-block input:valid,
+.input-block textarea:valid{
+    border: 1px solid #A1E9C5;
+}
+
 .input-block textarea{
     height: clamp(12rem, 16rem, 24rem);
     resize: vertical;

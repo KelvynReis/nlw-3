@@ -61,19 +61,19 @@
 
             <div class="input-block">
               <label for="name">Nome</label>
-              <input id="name" name="name" />
+              <input id="name" name="name" required />
             </div>
 
             <div class="input-block">
               <label for="about"
                 >Sobre <span>Máximo de 300 catacteres</span></label
               >
-              <textarea id="about" name="about"></textarea>
+              <textarea id="about" name="about" required></textarea>
             </div>
 
             <div class="input-block">
               <label for="whatsapp">Número de whatsapp</label>
-              <input id="whatsapp" name="whatsapp" />
+              <input id="whatsapp" name="whatsapp" required />
             </div>
 
             <div class="input-block images">
@@ -81,7 +81,7 @@
 
               <div class="images-upload" id="images">
                 <div class="new-upload">
-                  <input name="images" placeholder="Cole o link da foto aqui" />
+                  <input name="images" placeholder="Cole o link da foto aqui" required />
                 <span><img src="./public/images/remove-file.svg" alt="remover foto"></span>
                 </div>
               </div>
@@ -99,12 +99,12 @@
 
             <div class="input-block">
               <label for="instructions">Instruções</label>
-              <textarea id="instructions" name="instructions"></textarea>
+              <textarea id="instructions" name="instructions" required></textarea>
             </div>
 
             <div class="input-block">
               <label for="opening_hours">Horário das visitas</label>
-              <input id="opening_hours" name="opening_hours" />
+              <input id="opening_hours" name="opening_hours" required />
             </div>
 
             <div class="input-block">
@@ -114,6 +114,7 @@
                 id="open_on_weekends"
                 name="open_on_weekends"
                 value="1"
+                required
               />
 
               <div class="button-select">
