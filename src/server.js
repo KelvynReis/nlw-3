@@ -1,11 +1,19 @@
 //inportar dependencia
 const express = require('express');
+const path = require('path');
 //iniciando o express
 const server = express()
+server
+    //utilizando os arquivos estaticos
+    .use(express.static('public'))
 
-//criar uma rota
-server.get('/', (request, response) =>{
-    return response.send('oi direto do back-and');
+    //configurar template engine
+    .set('views',path.join(__dirname, "view"))
+    .set('view engine', 'hbs')
+
+    //criar uma rota
+    .get('/', (request, response) =>{
+    return response.render('index')
 })
 
 //ligar o servidor
