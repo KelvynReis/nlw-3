@@ -25,3 +25,4 @@ function saveOrphanage(db, orphanage) {
 }
 
 module.exports = saveOrphanage;
+console.log(saveOrphanage())
