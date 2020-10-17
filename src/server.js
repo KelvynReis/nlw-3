@@ -4,8 +4,8 @@ const express = require('express');
 const server = express()
 
 //criar uma rota
-server.get('/', () =>{
-    console.log("oi");
+server.get('/', (request, response) =>{
+    return response.send('oi direto do back-and');
 })
 
 //ligar o servidor
