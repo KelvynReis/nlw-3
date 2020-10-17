@@ -8,12 +8,12 @@ server
     .use(express.static('public'))
 
     //configurar template engine
-    .set('views',path.join(__dirname, "view"))
+    .set('views',path.join(__dirname, "views"))
     .set('view engine', 'hbs')
 
     //criar uma rota
-    .get('/', (request, response) =>{
-    return response.render('index')
+    .get('/', (req, res) =>{
+    return res.render('index')
 })
 
 //ligar o servidor
