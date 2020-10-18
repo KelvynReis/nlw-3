@@ -5,7 +5,7 @@ function execute(db){
     return db.exec(`
         CREATE TABLE IF NOT EXISTS orphanages (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
-            Lat TEXT,
+            lat TEXT,
             lng TEXT,
             name TEXT,
             about TEXT,
