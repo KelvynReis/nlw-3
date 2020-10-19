@@ -95,3 +95,13 @@ function toggleSelect(event){
 
     
 }
+
+function validate (event){
+    //validar se lat e lng estao preenchidos
+    const needsLatAndLng = false;
+    if(needsLatAndLng){
+        event.preventDefault()
+    alert('Selecione um ponto no mapa')
+    }
+    
+}
