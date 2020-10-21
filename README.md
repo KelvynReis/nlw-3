@@ -1,6 +1,6 @@
 ## HAPPY
 <p align="center">
-    <img src="./.github/happy.png">
+    <img src="./.github/happy.png" alt="pagina web">
 </p>
 
 
