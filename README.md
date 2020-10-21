@@ -1,3 +1,9 @@
+## HAPPY
+<p align="center">
+    <img src="./.github/happy.png">
+</p>
+
+
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido utilizando as seguintes tecnologias:
